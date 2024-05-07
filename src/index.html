@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <main class="bg-background overflow-x-hidden">
@@ -98,7 +99,7 @@
             </ul>
           </nav>
           <nav
-            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:px-[20px] max-sm:py-[20px]"
+            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:py-[20px]"
           >
             <a href="index.html"
               ><svg
@@ -107,6 +108,7 @@
                 viewBox="0 0 125 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="pl-[20px]"
               >
                 <circle
                   cx="71"
@@ -160,14 +162,15 @@
           </nav>
           <div
             class="box mt-[200px] flex justify-center items-center flex-col max-sm:flex max-sm:justify-between max-sm:items-center max-sm:flex-col max-sm:px-[20px] max-sm:gap-6"
+            data-aos="flip-up"
           >
             <h1
-              class="font-syne text-[72px] text-white font-bold text-center max-sm:font-syne max-sm:text-[2.5rem]"
+              class="font-syne text-[4.5rem] text-white font-bold text-center max-sm:font-syne max-sm:text-[2rem]"
             >
               Adaptive Logo Design <br />For Your Brand
             </h1>
             <button
-              class="w-[242px] h-[65px] rounded-[32.5px] bg-orange text-darkwhite font-Rubik font-semibold flex justify-center items-center gap-[10px] max-sm:w-[200px] max-sm:h-[40px] max-sm:rounded-lg"
+              class="w-[242px] h-[65px] rounded-[32.5px] bg-orange text-darkwhite font-Rubik font-semibold flex justify-center items-center gap-[10px] max-sm:w-[150px] max-sm:h-[40px] max-sm:rounded-[0.5rem]"
             >
               EXPLORE WORKS
               <a href="#"
@@ -177,6 +180,7 @@
                   viewBox="0 0 18 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  class="max-sm:hidden"
                 >
                   <path
                     d="M1 5.5H17"
@@ -239,19 +243,21 @@
         </header>
       </div>
       <section
-        class="px-[150px] flex justify-between items-start max-sm:px-[20px] max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center"
+        class="px-[150px] flex justify-between items-start max-sm:px-[20px] max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-11"
       >
         <div
-          class="wrapper flex justify-between items-start flex-col max-sm:gap-6 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:px-20"
+          class="wrapper flex justify-between gap-10 items-start flex-col max-sm:gap-6 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:px-20"
         >
           <h2
-            class="font-syne font-bold text-[56px] text-white max-sm:text-[2.5rem] max-sm:text-center"
+            class="font-syne font-bold text-[3.5rem] text-white max-sm:text-[1.7rem] max-sm:text-center max-sm:leading-[2rem]"
+            data-aos="fade-right"
           >
             Let's get know <br />
             about me closer
           </h2>
           <p
-            class="font-Rubik text-gray text-lg mb-10 max-sm:text-center max-sm:text-[10px]"
+            class="font-Rubik text-gray text-lg mb-10 max-sm:text-center max-sm:text-[1rem] max-sm:leading-[2rem]"
+            data-aos="fade-left"
           >
             Aaronn is a New york-based visual designer focusing on branding
             <br />
@@ -259,7 +265,8 @@
             work,spanning books.posters and web design.
           </p>
           <button
-            class="bg-orange text-white w-[288px] h-[59px] rounded-[47px] flex justify-center items-center font-Rubik text-[16px] max-sm:w-[200px] max-sm:h-10 max-sm:rounded-md"
+            class="bg-orange text-white w-[288px] h-[59px] rounded-[47px] flex justify-center items-center font-Rubik text-[1rem] max-sm:w-[180px] max-sm:h-10 max-sm:rounded-[0.4rem]"
+            data-aos="fade-right"
           >
             Discover More About Me
           </button>
@@ -267,7 +274,8 @@
         <img
           src="./images/about-me-image.png"
           alt=""
-          class="max-sm:w-[75%] max-sm:h-[35rem]"
+          class="max-sm:w-[75%] max-sm:h-[15rem] mr-2.5"
+          data-aos="fade-left"
         />
       </section>
       <a class="relative top-[-600px] left-[-300px]"
@@ -312,14 +320,15 @@
       </a>
       <section
         class="flex justify-center items-center flex-col mt-[-300px] gap-10 max-sm:px-[20px]"
+        data-aos="zoom-in"
       >
         <h2
-          class="font-syne text-white text-[64px] font-bold max-sm:text-[40px]"
+          class="font-syne text-white text-[4rem] font-bold max-sm:text-[2rem] max-sm:text-center"
         >
           My Projects Highlights
         </h2>
         <button
-          class="w-[242px] h-[65px] rounded-[32.5px] border-2 border-orange text-darkwhite font-Rubik text-[13px] flex justify-center items-center gap-[10px] bg-transparent max-sm:w-[170px] max-sm:rounded-xl"
+          class="w-[242px] h-[65px] rounded-[32.5px] border-2 border-orange text-darkwhite font-Rubik text-[13px] flex justify-center items-center gap-[10px] bg-transparent max-sm:w-[170px] max-sm:rounded-xl max-sm:h-10"
         >
           EXPLORE MORE
           <a href="#"
@@ -393,30 +402,31 @@
           class="cards-container px-[150px] flex justify-between items-center flex-wrap gap-y-10 max-sm:justify-center max-sm:items-center max-sm:px-5"
         >
           <div
-            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[570px]"
+            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[450px]"
+            data-aos="fade-right"
           >
             <img
               src="./images/card-image-1.png"
               alt=""
-              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[420px]"
+              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[300px]"
             />
             <div
               class="card-body flex justify-between items-start flex-col gap-7"
             >
               <div class="title flex justify-between items-center gap-14">
                 <h3
-                  class="font-syne font-bold text-[24px] text-white max-sm:text-sm"
+                  class="font-syne font-bold text-[24px] text-white max-sm:text-[1rem]"
                 >
                   Brand Journey Improvements
                 </h3>
-                <div class="line w-12 h-[1px] bg-orange"></div>
+                <div class="line w-12 h-[1px] bg-orange max-sm:hidden"></div>
               </div>
               <div
                 class="description flex justify-between items-start flex-col gap-3"
               >
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Client:</span
                   >
                   <span class="font-Rubik font-normal text-sm text-white"
@@ -425,101 +435,103 @@
                 </div>
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Work:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
-                    >Branding Logo design</span
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
+                    >Branding Logo</span
                   >
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[570px]"
+            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[450px]"
+            data-aos="fade-left"
           >
             <img
               src="./images/card-image-2.png"
               alt=""
-              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[420px]"
+              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[300px]"
             />
             <div
               class="card-body flex justify-between items-start flex-col gap-7"
             >
               <div class="title flex justify-between items-center gap-14">
                 <h3
-                  class="font-syne font-bold text-[24px] text-white max-sm:text-sm"
+                  class="font-syne font-bold text-[24px] text-white max-sm:text-[1rem]"
                 >
                   Brand Grouping
                 </h3>
-                <div class="line w-12 h-[1px] bg-orange"></div>
+                <div class="line w-12 h-[1px] bg-orange max-sm:hidden"></div>
               </div>
               <div
                 class="description flex justify-between items-start flex-col gap-3"
               >
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Client:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
                     >FR</span
                   >
                 </div>
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Work:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
-                    >Branding Logo design</span
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
+                    >Branding Logo</span
                   >
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[570px]"
+            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[450px]"
+            data-aos="fade-right"
           >
             <img
               src="./images/card-image-3.png"
               alt=""
-              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[420px]"
+              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[300px]"
             />
             <div
               class="card-body flex justify-between items-start flex-col gap-7"
             >
               <div class="title flex justify-between items-center gap-14">
                 <h3
-                  class="font-syne font-bold text-[24px] text-white max-sm:text-sm"
+                  class="font-syne font-bold text-[24px] text-white max-sm:text-[1rem]"
                 >
                   NFT glimps
                 </h3>
-                <div class="line w-12 h-[1px] bg-orange"></div>
+                <div class="line w-12 h-[1px] bg-orange max-sm:hidden"></div>
               </div>
               <div
                 class="description flex justify-between items-start flex-col gap-3"
               >
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Client:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
                     >Rumanda</span
                   >
                 </div>
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Work:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
                     >NFT design</span
                   >
                 </div>
@@ -527,44 +539,45 @@
             </div>
           </div>
           <div
-            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[570px]"
+            class="card w-[560px] h-[768px] rounded-2xl max-sm:w-[60%] max-sm:h-[450px]"
+            data-aos="fade-left"
           >
             <img
               src="./images/card-image-4.png"
               alt=""
-              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[420px]"
+              class="rounded-2xl w-[560px] h-[620px] max-sm:h-[300px]"
             />
             <div
               class="card-body flex justify-between items-start flex-col gap-7"
             >
               <div class="title flex justify-between items-center gap-14">
                 <h3
-                  class="font-syne font-bold text-[24px] text-white max-sm:text-sm"
+                  class="font-syne font-bold text-[24px] text-white max-sm:text-[1rem]"
                 >
                   Brand Suggostion
                 </h3>
-                <div class="line w-12 h-[1px] bg-orange"></div>
+                <div class="line w-12 h-[1px] bg-orange max-sm:hidden"></div>
               </div>
               <div
                 class="description flex justify-between items-start flex-col gap-3"
               >
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-[14px] text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-[14px] text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Client:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
                     >T3d</span
                   >
                 </div>
                 <div class="row">
                   <span
-                    class="font-Rubik font-normal text-[14px] text-grayi mr-5 max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-[14px] text-grayi mr-5 max-sm:text-[0.75rem]"
                     >Work:</span
                   >
                   <span
-                    class="font-Rubik font-normal text-sm text-white max-sm:text-[10px]"
+                    class="font-Rubik font-normal text-sm text-white max-sm:text-[0.75rem]"
                     >NFT logo</span
                   >
                 </div>
@@ -580,7 +593,8 @@
           class="flex justify-around px-[150px] items-end gap-[550px] max-sm:justify-center max-sm:items-center"
         >
           <h2
-            class="font-syne font-bold text-[64px] text-white max-sm:text-[2.5rem]"
+            class="font-syne font-bold text-[4rem] text-white max-sm:text-[2rem]"
+            data-aos="fade-right"
           >
             Testimonial
           </h2>
@@ -591,6 +605,7 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             class="max-sm:hidden"
+            data-aos="fade-left"
           >
             <mask
               id="path-1-outside-1_101_422"
@@ -614,7 +629,8 @@
           </svg>
         </ul>
         <p
-          class="font-Rubik font-normal w-[70%] text-lg text-gray2 px-[150px] max-sm:px-[20px] max-sm:text-sm max-sm:w-full"
+          class="font-Rubik font-normal w-[70%] text-lg text-gray2 px-[150px] max-sm:px-[20px] max-sm:text-[1rem] max-sm:w-full"
+          data-aos="fade-left"
         >
           “Aaronn was fantastic to work with from start to finish. We were
           looking for a simple, stand-out logo and he delivered. I tried
@@ -626,7 +642,10 @@
           professionalism. I would recommend him to anyone looking for a
           design!”
         </p>
-        <h3 class="font-syne font-bold text-2xl text-white px-[150px] mb-40">
+        <h3
+          class="font-syne font-bold text-2xl text-white px-[150px] mb-40 max-sm:text-[1rem] max-sm:px-0"
+          data-aos="fade-right"
+        >
           -Martin lee
         </h3>
       </section>
@@ -670,14 +689,17 @@
         </defs>
       </svg>
       <footer
-        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col"
+        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col max-sm:px-5"
+        data-aos="zoom-in"
       >
         <ul class="flex justify-between items-center flex-col">
-          <h3 class="font-syne font-bold text-2xl text-orange max-sm:text-lg">
+          <h3
+            class="font-syne font-bold text-2xl text-orange max-sm:text-[1rem]"
+          >
             Get in Touch With Us
           </h3>
           <h1
-            class="font-syne font-bold text-[64px] text-white border-b-8 border-b-white max-sm:text-[2.5rem] max-sm:border-b-4"
+            class="font-syne font-bold text-[4rem] text-white border-b-8 border-b-white max-sm:text-[1.7rem] max-sm:border-b-4"
           >
             info@aaronn.com
           </h1>
@@ -775,11 +797,16 @@
           class="bg-gray2 w-full h-[2px] px-[150px] max-sm:px-[20px] max-sm:w-full"
         ></div>
         <h3
-          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[14px]"
+          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[0.75rem]"
         >
           © 2023. Ideapeel. All rights reserved.
         </h3>
       </footer>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

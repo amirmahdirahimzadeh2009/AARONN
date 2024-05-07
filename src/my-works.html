@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <main class="bg-background overflow-x-hidden">
@@ -98,7 +99,7 @@
             </ul>
           </nav>
           <nav
-            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:px-[20px] max-sm:py-[20px]"
+            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:py-[20px]"
           >
             <a href="index.html"
               ><svg
@@ -107,6 +108,7 @@
                 viewBox="0 0 125 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="pl-[20px]"
               >
                 <circle
                   cx="71"
@@ -160,13 +162,16 @@
           </nav>
           <section
             class="my-works px-[150px] justify-between items-start flex-col gap-10 mt-32 max-sm:px-[20px]"
+            data-aos="fade-right"
           >
             <h1
-              class="font-syne font-bold text-[72px] text-white max-sm:text-[3rem]"
+              class="font-syne font-bold text-[72px] text-white max-sm:text-[2rem]"
             >
               my works
             </h1>
-            <p class="font-Rubik text-lg font-medium text-gray2 max-sm:text-sm">
+            <p
+              class="font-Rubik text-lg font-medium text-gray2 max-sm:text-[1rem]"
+            >
               Showcase About Works
             </p>
             <div class="h-[1px] bg-gray2 mt-24 max-sm:mt-10"></div>
@@ -217,6 +222,7 @@
       >
         <div
           class="small-card max-w-[340px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[300px]"
+          data-aos="fade-right"
         >
           <img
             src="./images/work-card-image-1.png"
@@ -234,6 +240,7 @@
         </div>
         <div
           class="small-card max-w-[340px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[300px]"
+          data-aos="fade-left"
         >
           <img
             src="./images/work-card-image-2.png"
@@ -251,6 +258,7 @@
         </div>
         <div
           class="small-card max-w-[340px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[300px]"
+          data-aos="fade-right"
         >
           <img
             src="./images/work-card-image-3.png"
@@ -268,6 +276,7 @@
         </div>
         <div
           class="big-card w-[535px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[400px]"
+          data-aos="fade-left"
         >
           <img
             src="./images/work-card-image-4.png"
@@ -285,6 +294,7 @@
         </div>
         <div
           class="big-card w-[535px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[400px]"
+          data-aos="fade-right"
         >
           <img
             src="./images/work-card-image-5.png"
@@ -302,6 +312,7 @@
         </div>
         <div
           class="small-card max-w-[340px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[300px]"
+          data-aos="fade-left"
         >
           <img
             src="./images/work-card-image-6.png"
@@ -319,6 +330,7 @@
         </div>
         <div
           class="small-card max-w-[340px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[300px]"
+          data-aos="fade-right"
         >
           <img
             src="./images/work-card-image-7.png"
@@ -336,6 +348,7 @@
         </div>
         <div
           class="small-card max-w-[340px] h-[439px] flex justify-center items-center flex-col gap-4 max-sm:w-[300px]"
+          data-aos="fade-left"
         >
           <img
             src="./images/work-card-image-8.png"
@@ -354,20 +367,24 @@
       </div>
       <ul class="flex justify-center items-center mt-16">
         <div
-          class="box w-[224px] h-[60px] rounded-[32.5px] border border-orange flex justify-center items-center font-Inter font-bold text-[13px] text-orange bg-background max-sm:w-[170px]"
+          class="box w-[224px] h-[60px] rounded-[32.5px] border border-orange flex justify-center items-center font-Inter font-bold text-[13px] text-orange bg-background max-sm:w-[170px] max-sm:h-10"
+          data-aos="flip-up"
         >
           LOAD MORE WORKS
         </div>
       </ul>
       <footer
-        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col max-sm:px-[20px] max-sm:mt-14 mt-20"
+        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col max-sm:px-5 mt-10"
+        data-aos="zoom-in"
       >
         <ul class="flex justify-between items-center flex-col">
-          <h3 class="font-syne font-bold text-2xl text-orange max-sm:text-lg">
+          <h3
+            class="font-syne font-bold text-2xl text-orange max-sm:text-[1rem]"
+          >
             Get in Touch With Us
           </h3>
           <h1
-            class="font-syne font-bold text-[64px] text-white border-b-8 border-b-white max-sm:text-[2.5rem] max-sm:border-b-4"
+            class="font-syne font-bold text-[4rem] text-white border-b-8 border-b-white max-sm:text-[1.7rem] max-sm:border-b-4"
           >
             info@aaronn.com
           </h1>
@@ -465,11 +482,16 @@
           class="bg-gray2 w-full h-[2px] px-[150px] max-sm:px-[20px] max-sm:w-full"
         ></div>
         <h3
-          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[14px]"
+          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[0.75rem]"
         >
           © 2023. Ideapeel. All rights reserved.
         </h3>
       </footer>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

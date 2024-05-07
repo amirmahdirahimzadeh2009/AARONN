@@ -28,6 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <main class="bg-background overflow-x-hidden">
@@ -104,7 +105,7 @@
             </ul>
           </nav>
           <nav
-            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:px-[20px] max-sm:py-[20px]"
+            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:py-[20px]"
           >
             <a href="index.html"
               ><svg
@@ -113,6 +114,7 @@
                 viewBox="0 0 125 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="pl-[20px]"
               >
                 <circle
                   cx="71"
@@ -165,14 +167,17 @@
             </svg>
           </nav>
           <section
-            class="my-works px-[150px] justify-between items-start flex-col gap-10 mt-32 max-sm:px-[20px]"
+            class="about px-[150px] justify-between items-start flex-col gap-10 mt-32 max-sm:px-[20px]"
+            data-aos="fade-right"
           >
             <h1
-              class="font-syne font-bold text-[72px] text-white max-sm:text-[3rem]"
+              class="font-syne font-bold text-[4.5rem] text-white max-sm:text-[2rem]"
             >
               About Me
             </h1>
-            <p class="font-Rubik text-lg font-medium text-gray2 max-sm:text-sm">
+            <p
+              class="font-Rubik text-lg font-medium text-gray2 max-sm:text-[1rem]"
+            >
               Little Brief About Myself
             </p>
             <div
@@ -221,15 +226,17 @@
         </header>
       </div>
       <section
-        class="about-me flex justify-between items-center flex-wrap px-[150px] gap-y-20 max-sm:justify-center max-sm:px-5 max-sm:gap-10"
+        class="about-me flex justify-between items-center flex-wrap px-[150px] gap-y-20 max-sm:justify-center max-sm:px-5 max-sm:gap-16"
       >
         <h2
-          class="font-syne text-[80px] font-bold text-white w-[535px] h-[336px] leading-[100px] max-sm:text-[25px] max-sm:h-20 max-sm:leading-none"
+          class="font-syne text-[80px] font-bold text-white w-[535px] h-[336px] leading-[100px] max-sm:text-[1.5rem] max-sm:h-20 max-sm:leading-[2.5rem] max-sm:text-center"
+          data-aos="fade-right"
         >
           My mission is to make design easier.
         </h2>
         <p
-          class="font-opensans font-semibold text-[21px] text-gray2 w-[495px] max-sm:text-sm max-sm:text-center max-sm:px-5 max-sm:w-full"
+          class="font-opensans font-semibold text-[21px] text-gray2 w-[495px] max-sm:text-[1rem] max-sm:text-center max-sm:px-5 max-sm:w-full"
+          data-aos="fade-left"
         >
           Create custom Designs with AARONN that converts more visitors than any
           website. With lots of unique design, you can easily select a logo
@@ -240,16 +247,19 @@
         <img
           src="./images/about-me-man-1 (1).png"
           alt=""
-          class="w-[360px] h-[515px] max-sm:w-[250px] max-sm:h-[400px]"
+          class="w-[360px] h-[515px] max-sm:w-[250px] max-sm:h-[250px]"
+          data-aos="fade-right"
         />
         <img
           src="./images/about-me-man-2.png"
           alt=""
-          class="w-[750px] h-[515px] max-sm:w-[350px] max-sm:h-400px"
+          class="w-[750px] h-[515px] max-sm:w-[350px] max-sm:h-[250px]"
+          data-aos="fade-left"
         />
       </section>
       <h3
-        class="font-syne font-bold text-[48px] text-white px-[150px] mt-36 max-sm:px-5 max-sm:text-[1.5rem]"
+        class="font-syne font-bold text-[3rem] text-white px-[150px] mt-36 max-sm:px-5 max-sm:text-[1.5rem]"
+        data-aos="fade-right"
       >
         Follow me on:
       </h3>
@@ -257,38 +267,25 @@
       <br />
       <br />
       <ul
-        class="flex justify-between items-center px-[150px] max-sm:px-[20px] flex-wrap"
+        class="flex justify-between items-center px-[150px] max-sm:px-[20px] flex-wrap font-Inter font-bold text-[32px] text-gray2 max-sm:text-[0.75rem]"
       >
-        <span
-          class="font-Inter font-bold text-[32px] text-gray2 max-sm:text-xl"
-        >
-          DRIBBLE
-        </span>
-        <span
-          class="font-Inter font-bold text-[32px] text-gray2 max-sm:text-xl"
-        >
-          TWITTER
-        </span>
-        <span
-          class="font-Inter font-bold text-[32px] text-gray2 max-sm:text-xl"
-        >
-          FACEBOOK
-        </span>
-        <span
-          class="font-Inter font-bold text-[32px] text-gray2 max-sm:text-xl"
-        >
-          INSTAGRAM
-        </span>
+        <span data-aos="fade-right"> DRIBBLE </span>
+        <span data-aos="fade-right"> TWITTER </span>
+        <span data-aos="fade-left"> FACEBOOK </span>
+        <span data-aos="fade-left"> INSTAGRAM </span>
       </ul>
       <footer
-        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col mt-20"
+        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col max-sm:px-5"
+        data-aos="zoom-in"
       >
         <ul class="flex justify-between items-center flex-col">
-          <h3 class="font-syne font-bold text-2xl text-orange max-sm:text-lg">
+          <h3
+            class="font-syne font-bold text-2xl text-orange max-sm:text-[1rem]"
+          >
             Get in Touch With Us
           </h3>
           <h1
-            class="font-syne font-bold text-[64px] text-white border-b-8 border-b-white max-sm:text-[2.5rem] max-sm:border-b-4"
+            class="font-syne font-bold text-[4rem] text-white border-b-8 border-b-white max-sm:text-[1.7rem] max-sm:border-b-4"
           >
             info@aaronn.com
           </h1>
@@ -386,11 +383,16 @@
           class="bg-gray2 w-full h-[2px] px-[150px] max-sm:px-[20px] max-sm:w-full"
         ></div>
         <h3
-          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[14px]"
+          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[0.75rem]"
         >
           © 2023. Ideapeel. All rights reserved.
         </h3>
       </footer>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -13,13 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <main class="bg-background overflow-x-hidden">
@@ -104,7 +104,7 @@
             </ul>
           </nav>
           <nav
-            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:px-[20px] max-sm:py-[20px]"
+            class="mobile-nav w-full hidden max-sm:flex max-sm:justify-between max-sm:items-center max-sm:py-[20px]"
           >
             <a href="index.html"
               ><svg
@@ -113,6 +113,7 @@
                 viewBox="0 0 125 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="pl-[20px]"
               >
                 <circle
                   cx="71"
@@ -166,13 +167,16 @@
           </nav>
           <section
             class="contact-me px-[150px] justify-between items-start flex-col gap-10 mt-32 max-sm:justify-center max-sm:items-center max-sm:px-[20px]"
+            data-aos="fade-right"
           >
             <h1
-              class="font-syne font-bold text-[72px] text-white max-sm:text-[3rem]"
+              class="font-syne font-bold text-[72px] text-white max-sm:text-[2rem]"
             >
               Contact Me
             </h1>
-            <p class="font-Rubik text-lg font-medium text-gray2 max-sm:text-sm">
+            <p
+              class="font-Rubik text-lg font-medium text-gray2 max-sm:text-[1rem]"
+            >
               For Any Project Knock Us
             </p>
             <div class="h-[1px] bg-gray2 mt-24 max-sm:mt-10"></div>
@@ -219,76 +223,75 @@
         </header>
       </div>
       <section
-        class="contact-me flex justify-between items-center flex-wrap px-[150px] max-sm:justify-center max-sm:px-[20px] max-sm:flex-col max-sm:items-start"
+        class="px-[150px] py-[54px] flex justify-between items-start w-full mt-[50px] flex-wrap max-sm:px-[20px] max-sm:py-[40px] max-sm:items-center max-sm:gap-14"
       >
-        <h2
-          class="font-syne text-[80px] font-bold text-white w-[535px] h-[336px] leading-[100px] max-sm:leading-[50px] max-sm:text-[2.9rem]"
-        >
-          Get in Touch With Us
-        </h2>
+        <div class="w-[436px] max-sm:w-[100%]">
+          <h2
+            class="font-syne font-bold text-[4rem] text-white max-sm:text-[2rem] max-sm:text-center"
+            data-aos="fade-right"
+          >
+            Get in Touch With Us
+          </h2>
+        </div>
         <form
-          action=""
-          class="font-Rubik text-2xl font-medium flex justify-between flex-col items-start w-[50%]"
+          action="#"
+          class="flex flex-col justify-between h-[450px] w-[50%] font-Rubik font-medium text-[24px] text-white max-sm:text-[1rem] max-sm:w-full max-sm:items-center max-sm:h-[300px]"
+          data-aos="fade-left"
         >
-          <label for="name" class="text-white"
-            >NAME
-            <input
-              type="text"
-              class="h-[80px] w-[576px] bg-background focus:outline-none focus:border-orange text-white border-b-2 border-b-gray max-sm:w-[400px]"
-              name="name"
-              id="name"
-            />
-          </label>
-          <label for="subject" class="text-white"
-            >SUBJECT
-            <input
-              type="text"
-              class="h-[80px] bg-background w-[576px] focus:outline-none focus:border-orange text-white border-b-2 border-b-gray max-sm:w-[400px]"
-              name="SUBJECT"
-              id="SUBJECT"
-            />
-          </label>
-          <label for="message" class="text-white"
-            >MESSAGE
-            <input
-              type="text"
-              class="h-[80px] bg-background w-[576px] focus:outline-none focus:border-orange text-white border-b-gray border-b-2 max-sm:w-[400px]"
-              name="message"
-              id="message"
-            />
-          </label>
-          <label for="submit">
-            <input
-              type="submit"
-              value="SEND"
-              class="w-[158px] h-[50px] rounded-[50px] bg-orange text-white mt-10"
-              name="submit"
-              id="submit"
-            />
-          </label>
+          <label for="NAME">NAME</label>
+          <input
+            type="text"
+            class="border-b-2 focus:outline-none focus:border-orange bg-background w-[100%]"
+            name="NAME"
+            id="NAME"
+          />
+          <label for="SUBJECT">SUBJECT</label>
+          <input
+            type="text"
+            class="border-b-2 focus:outline-none focus:border-orange bg-background text-white w-[100%]"
+            name="SUBJECT"
+            id="SUBJECT"
+          />
+          <label for="MESSAGE">MESSAGE</label>
+          <input
+            type="text"
+            class="border-b-2 focus:outline-none focus:border-orange bg-background text-white w-[100%]"
+            name="MESSAGE"
+            id="MESSAGE"
+          />
+          <button
+            class="font-Rubik font-medium text-[1.5rem] bg-orange text-white w-[158px] h-[50px] rounded-[50px] max-sm:w-[120px] max-sm:h-[40px] max-sm:text-[1.25rem] max-sm:rounded-lg"
+          >
+            SEND
+          </button>
         </form>
       </section>
       <img
         src="./images/contact-image-lap-top.png"
         alt=""
-        class="px-[150px] w-full h-[636px] mt-20 max-sm:px-5 max-sm:h-[300px]"
+        class="px-[150px] w-full h-[636px] mt-20 max-sm:px-5 max-sm:h-[200px]"
+        data-aos="zoom-in"
       />
       <ul
-        class="flex justify-evenly items-center font-syne font-bold text-2xl text-white px-[150px] mt-20 max-sm:px-5 max-sm:text-lg max-sm:mt-10"
+        class="flex justify-evenly items-center font-syne font-bold text-2xl text-white px-[150px] mt-20 max-sm:px-5 max-sm:text-[1rem] max-sm:mt-10 max-sm:flex-col"
+        data-aos="fade-left"
       >
         <span>Street Avenue 21, CA</span>
         <span>+9 0283353</span>
         <span class="border-b-2 border-b-white">info@aaronn.com</span>
       </ul>
       <footer
-        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col mt-20"
+        class="w-full h-[740px] bg-footer px-[150px] py-[80px] max-sm:flex-col max-sm:px-5 mt-16"
+        data-aos="zoom-in"
       >
         <ul class="flex justify-between items-center flex-col">
-          <h3 class="font-syne font-bold text-2xl text-orange max-sm:text-lg">
+          <h3
+            class="font-syne font-bold text-2xl text-orange max-sm:text-[1rem]"
+          >
             Get in Touch With Us
           </h3>
           <h1
-            class="font-syne font-bold text-[64px] text-white border-b-8 border-b-white max-sm:text-[2.5rem] max-sm:border-b-4"
+            class="font-syne font-bold text-[4rem] text-white border-b-8 border-b-white max-sm:text-[1.7rem] max-sm:border-b-4"
           >
             info@aaronn.com
           </h1>
@@ -386,11 +389,16 @@
           class="bg-gray2 w-full h-[2px] px-[150px] max-sm:px-[20px] max-sm:w-full"
         ></div>
         <h3
-          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[14px]"
+          class="font-syne font-bold text-2xl text-white flex items-center justify-center mt-10 max-sm:text-[0.75rem]"
         >
           © 2023. Ideapeel. All rights reserved.
         </h3>
       </footer>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
